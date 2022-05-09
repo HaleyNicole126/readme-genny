@@ -1,6 +1,6 @@
 
   
-  # README generator
+  # title
 
   ## Table of Contents
   - [Description](#Description)
@@ -12,24 +12,25 @@
   - [Questions](#Questions)
 
   ## Description
-  a command line application that accepts user input allowing them to quickly create a README.md file for their project
+  description
 
   ## Installation
-  this project uses Node.js as well as npm and the Inquirer package; make sure you have Node installed on your computer and run `npm i` before using the application 
+  instructions
 
   ## Usage
-  the application is invoked using `node index.js`
+  ino
 
   ## Contributing
-  Contributions welcome!
+  contribute please!
 
   ## Tests
-  no tests created for this project
+  no tests
 
   ## License 
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [MIT License](https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
+
+  [Apache License 2.0](https://opensource.org/licenses/Apache-2.0)
 
   ## Questions
   Please reach out with any additional questions: 

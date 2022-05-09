@@ -2,7 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-const { generateMarkdown, writeFile}  = require('./utils/generateMarkdown.js');
+const { generateMarkdown, writeFile } = require('./utils/generateMarkdown.js');
 
 
 // TODO: Create an array of questions for user input
@@ -14,12 +14,12 @@ const questions = () => {
             message: 'What is the title of your project? (Required)',
             validate: titleInput => {
                 if (titleInput) {
-                  return true;
+                    return true;
                 } else {
-                  console.log('Please enter the title of your project!');
-                  return false;
+                    console.log('Please enter the title of your project!');
+                    return false;
                 }
-              }
+            }
         },
         {
             type: 'input',
@@ -27,12 +27,12 @@ const questions = () => {
             message: 'Provide a short description of your project (Required)',
             validate: descriptionInput => {
                 if (descriptionInput) {
-                  return true;
+                    return true;
                 } else {
-                  console.log('Please provide a description!');
-                  return false;
+                    console.log('Please provide a description!');
+                    return false;
                 }
-              }
+            }
         },
         {
             type: 'input',
@@ -72,9 +72,10 @@ const questions = () => {
             message: 'Provide your email address'
         }
     ])
-   
+
 };
 
+// use the .then method to link the functions we neeed to call together, first using the Inquirer prompts with the questions() function, then capturing that data and sending it through the generateMarkdown() function, which provides the finished markdown template code, which is then passed through the writeFile() function
 questions()
     .then(answers => generateMarkdown(answers))
     .then(pageData => {
@@ -82,35 +83,8 @@ questions()
     })
     .then(writeFileResponse => {
         console.log(writeFileResponse);
+    })
+    .catch(err => {
+        console.log(err);
     });
-//     .then(answers => {
-//         return generateMarkdown(answers);
-//         console.log(answers);
-//     })
-//     .then(pageMarkdown => {
-//         return writeFile(pageMarkdown);
-//     })
-//     .then(writeFileResponse => {
-//         console.log(writeFileResponse);
-//     })
-//     .catch(err => {
-//         console.log(err);
-//     });
 
-    // const pageHTML = generatePage();
-
-    // fs.writeFile('./index.html', pageHTML, err => {
-    //   if (err) throw new Error(err);
-
-    //   console.log('Page created! Check out index.html in this directory to see it!');
-    // });
-
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) { }
-
-
-// // TODO: Create a function to initialize app
-// function init() { }
-
-// // Function call to initialize app
-// init();
