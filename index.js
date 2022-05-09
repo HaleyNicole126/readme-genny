@@ -1,10 +1,9 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generatePage = require('./src/page-template.js');
+
 const { generateMarkdown, writeFile}  = require('./utils/generateMarkdown.js');
-const { rejects } = require('assert');
-const { resolve } = require('path');
+
 
 // TODO: Create an array of questions for user input
 const questions = () => {
@@ -59,7 +58,7 @@ const questions = () => {
             type: 'rawlist',
             name: 'license',
             message: 'Choose a license',
-            choices: ['', 'MIT License', 'Apache License 2.0', 'GNU General Public License v3.0', 'BSD 2-Clause "Simplified" License', 'BSD 3-Clause "New" or "Revised" License', 'Boost Software License 1.0', 'Creative Commons Zero v1.0 Universal', 'Eclipse Public License 2.0', 'GNU affero General Public License v3.0', 'GNU General Public License v2.1', 'GNU Lesser General Public License v2.1', 'Mozilla Public License 2.0', 'The Unlicense'],
+            choices: ['', 'MIT License', 'Apache License 2.0', 'GNU General Public License v3.0', 'BSD 2-Clause "Simplified" License', 'BSD 3-Clause "New" or "Revised" License', 'Boost Software License 1.0', 'Creative Commons Zero v1.0 Universal', 'Eclipse Public License 1.0', 'GNU affero General Public License v3.0', 'GNU General Public License v2.1', 'GNU Lesser General Public License v3.0', 'Mozilla Public License 2.0', 'The Unlicense'],
             default: 0
         },
         {

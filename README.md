@@ -1,41 +1,35 @@
+  # README generator
 
+  ## Table of Contents
+  - [Description](#Description)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [Contributing](#Contributing)
+  - [Tests](#Tests)
+  - [License](#License)
+  - [Questions](#Questions)
 
-# kdsf
+  ## Description
+  a command line application that accepts user input allowing them to quickly create a README.md file for their project
 
-## [GitHub](https://github.com/sdlkj)
+  ## Installation
+  this project uses Node.js as well as npm and the Inquirer package; make sure you have Node installed on your computer and run `npm i` before using the application 
 
+  ## Usage
+  the application is invoked using `node index.js` from the command line 
 
-## About Me 
+  ## Contributing
+  Contributions welcome!
 
-we4orie
-    
+  ## Tests
+  no tests created for this project
 
-      <section class="my-3" id="portfolio">
-        <h2 class="text-dark bg-primary p-2 display-inline-block">Work</h2>
-        <div class="flex-row justify-space-between">
-        
-            <div class="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
-              <h3 class="portfolio-item-title text-light">lsdfkj</h3>
-              <h5 class="portfolio-languages">
-                Built With:
-                JavaScript
-              </h5>
-              <p>sfdlkj</p>
-              <a href="dsjklf" class="btn mt-auto"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
-            </div>
-          
-            <div class="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
-              <h3 class="portfolio-item-title text-light">sdjkfjldksj</h3>
-              <h5 class="portfolio-languages">
-                Built With:
-                JavaScript, HTML, CSS, ES6, jQuery, Bootstrap, Node
-              </h5>
-              <p>dskjfklasd</p>
-              <a href="ksdjf" class="btn mt-auto"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
-            </div>
-          
-        </div>
-      </section>
-    
+  ## License 
 
-    
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [MIT License](https://opensource.org/licenses/MIT)
+
+  ## Questions
+  Please reach out with any additional questions: 
+  - [GitHub](https://github.com/haleynicole126)
+  - Email: haleynicole126@gmail.com
