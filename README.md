@@ -16,7 +16,10 @@
   this project uses Node.js as well as npm and the Inquirer package; make sure you have Node installed on your computer and run `npm i` before using the application 
 
   ## Usage
-  the application is invoked using `node index.js` from the command line 
+  The application is invoked using `node index.js` from the command line.
+
+  Here is a walkthrough video demonstrating the use of this application:  
+  [Walkthrough Video](https://youtu.be/iq5EiIcK5G8)
 
   ## Contributing
   Contributions welcome!
@@ -25,8 +28,8 @@
   no tests created for this project
 
   ## License 
-
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
   [MIT License](https://opensource.org/licenses/MIT)
 
   ## Questions

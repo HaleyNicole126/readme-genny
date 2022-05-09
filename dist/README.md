@@ -1,36 +1,36 @@
 
   
-  # title
+  # Sample Project
 
   ## Table of Contents
-  - [Description](#Description)
-  - [Installation](#Installation)
-  - [Usage](#Usage)
-  - [Contributing](#Contributing)
-  - [Tests](#Tests)
-  - [License](#License)
-  - [Questions](#Questions)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [License](#license)
+  - [Questions](#questions)
 
   ## Description
-  description
+  Short description for my project
 
   ## Installation
-  instructions
+  installation instructions for this project
 
   ## Usage
-  ino
+  how to use this project
 
   ## Contributing
-  contribute please!
+  contributions are welcome!
 
   ## Tests
-  no tests
+  no tests created
 
   ## License 
 
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
-  [Apache License 2.0](https://opensource.org/licenses/Apache-2.0)
+  [MIT License](https://opensource.org/licenses/MIT)
 
   ## Questions
   Please reach out with any additional questions: 
